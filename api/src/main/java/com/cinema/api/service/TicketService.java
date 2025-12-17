@@ -83,7 +83,6 @@ public class TicketService {
 
         }
         return totalSpent;
-
     }
 
     public List<Ticket> findAllTickets(){
@@ -133,13 +132,5 @@ public class TicketService {
 
         return ticketRepository.save(oldTicket);
     }
-
-
-
-
-
-
-
-
 
 }
